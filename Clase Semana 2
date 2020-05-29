@@ -1,1 +1,54 @@
+             //     ** Los primeros códigos que vamos a utilizar en la terminal de Ubuntu **      //
 
+Comando = sudo apt update             //** Este código sirve para buscar las últimas actualizaciones de las versiones del software, su velocidad depende mucho de la velocidad del internet a la cual nosotros tenemos acceso.          **//
+                                      //** Su equevalente en el Sistema Operativo Windows es Windows Update, la comodidad de estar utilizando linux es que no pide demasiados requisitos por si queremos a pagar o riniciar el equipo.  **//
+                              
+Comando = sudo apt upgrade            //** Si el comando anterior (sudo apet upgrade) encontró acutalizaciones disponibles, estás se pueden ejecutar con este comando.                                                                  **//
+
+Comando = uptime                      //** Indica la cantidad total de tiempo en que la máquina ha estado en uso.                                                                                                                       **//
+
+Comando = clear                       //** Se utiliza para limpiar lo que se tiene en la consola.                                                                                                                                       **//
+
+Comando = ip addr                     //** Se utiliza para ver la dirección "IP" del dispositivo, antes se utilizaba "if config" pero como hubo un cambio a paquetes a nivel de Ubuntu.                                                 **//
+
+Comando = ping                        //** Generalmente es usado para poder hacer "ping o llamada" a una dirreción IP.                                                                                                                  **//
+
+Comando = lsb realese -a              //** Lo que nos va a decir es cuál sistema operativo estamos utilizando y la versión de este mismo.                                                                                               **//
+
+Comando = uname -a                    //** Lo que muestra es la versión del kernel que tenemos instalado.                                                                                                                               **//
+
+Comando = ls                          //** Muestra los archivos o contenido que tenemos dentro de la carpeta.                                                                                                                           **//
+
+Comando = ls -l                       //** Muestra los archivos que tenemos dentro de la carpeta pero en forma de lista, "-l" significa lista.                                                                                          **//
+
+Comando = ls -la                      //** Muestra lo que muestra el comando anterior pero a diferencia de este la propiedad "a" hace que se vean los archivos ocultos, osea se ven en lista los archivos ocultos y no ocultos.         **//
+
+Comando = ls Downloads                //** Muestra el contenido que existe dentro de la carpeta "Downloads".                                                                                                                            **//
+
+Comando = mkdir + {algún nombre}      //** Se utiliza para crear una carpeta, separada por un espacio debe de ir el nombre de la nueva carpeta.                                                                                         **//
+
+Comando = cd + {algún nombre}         //** Cambia la ruta en la que uno se encuestra, despues del color verde en la interfaz debe de salir un color azul para saber que uno está ahí.                                                   **//
+
+Comando = pwd                         //** Imprime la ruta completa en la cuál se encuentra ubicado en la terminal.                                                                                                                     **//
+
+Comando = cd ..                       //** Para volver a ubicarse en la carpeta home o tambien se puede hacer (cd + {espacio}) y depués enter.                                                                                          **//
+
+Comando = touch + {nombre} + terminal //** Sirve para crear un archivo, se le agrega nombre al archivo que se va acrear y la terminal que puede ser (.txt si es texto).                                                                 **//
+
+Comando = nano + {nombre} + terminal  //** Se utiliza para habilitar la edición del texto, claro que debe de terminar en (.txt). "CTRL + X" sirve para salirse del editor de texto                                                      **//
+
+Comando = cat + {nombre} + terminal   //** Si usa para ver el contenido que tiene dicho archo, si este es texto lo que se verá será el texto que contiene.                                                                              **//
+
+Comando = ps -aux                     //** Se imprime mucha información, acerca de los procesos.
+
+Comando = ps -aux |
+
+Definiciones interesantes:  || "sudo"    : La palabra sudo en un comando se utiliza para darle permisos de administardor al comando.                                                                                               ||
+                            || "apt"     : Es el paquete que nos va a permitir a instalar el software.                                                                                                                             ||
+                            || "upgrade" : Es un parámetro del programa que lo va a decir es sobre hacer algo indicado en el comando.                                                                                              ||
+                            || Autocompletado: El auto completado ayuda a autocopletar o rellenar un comando; se debe de tener bien escrito en lo que respecta al código y presionar la tecla "ENTER".                             ||
+                            || Parámetros    : Son palabras claves que nos dan opciones diferentes.                                                                                                                                ||
+                            || root          : Es el usuario administrador del sistema, el usuario con todos los permisos del sistema.                                                                                             ||
+                            || PID           : Es un identidicador único sobre un proceso.                                                                                                                                         ||
+                            
+                            
